@@ -78,7 +78,6 @@
             color: #27622A;
             background-color: #ffffff;
             display: flex;
-            /* font-weight: bold; */
             justify-content: center;
             align-items: center;
             font-family: 'Poppins';
@@ -194,6 +193,7 @@
             width: 150px;
             height: 150px;
             object-fit: contain;
+            margin: 0px 18px 0px 18px;
         }
 
         .product-right {
@@ -206,6 +206,9 @@
         .title-product {
             font-size: 22px;
             color: #163717;
+        }
+        .light-product{
+            border-bottom: 1px solid #ccc;
         }
 
     </style>
